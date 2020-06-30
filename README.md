@@ -5,10 +5,10 @@
 
 ### Prequisite Knowledge
  - What is : (*If you dont know, check the lecture slides/notes or google it.*)
-    - CSP
-    - Backtracking Search
-    - Arc Consistency
-    - A* search algorithm
+     - CSP
+     - Backtracking Search
+     - Arc Consistency
+     - A* search algorithm
     
 
 
@@ -38,11 +38,17 @@
 ### How to start
 
 1. Play around with aipython([code](ass1/aipython.zip) | [pdf](ass1/aipython.pdf)):  
-Know how to use these functions:
-  
+    - Watch the code of `cspProblem.py`,  and `cspExamples.py`;
+    - Understand how to build a csp object;
+    - Understand how to use the function cspConsistency.Search_with_AC_from_CSP;
+    - Try to use A\*search method to solve a problem in `cspProblem`;
+
+After this you will know -- how to use these functions:
+ 
         from cspConsistency import Search_with_AC_from_CSP
         from cspProblem import CSP, Constraint
         from searchGeneric import AStarSearcher
-
+        
+1. create a new python file **fuzzyScheduler.py** under aipython directory.
 1. .....(to be finished)
 
